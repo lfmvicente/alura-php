@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Alura\Banco\Model\Conta;
 
-class Conta
+abstract class Conta
 {
     private $titular;
-    private $saldo;
+    protected $saldo;
     private static $quantidadeDeContas = 0;
 
     public function __construct(Titular $titular)
@@ -42,7 +42,7 @@ class Conta
             echo 'Saldo Insuficiente';
             return;
         }
-        $this->saldo -= $valor;
+        $this->saldo -= $valor + ($valor * $this->getTarifa());
     }
 
     /**
@@ -58,25 +58,15 @@ class Conta
     }
 
     /**
-     * @param Conta $contaDestino
-     * @param float $valor
+     * @return int
      */
-    public function transferir(Conta $contaDestino, float $valor): void
-    {
-        if ($valor > 0) {
-            if ($valor <= $this->saldo) {
-                $this->sacar($valor);
-                $contaDestino->depositar($valor);
-                return;
-            }
-            echo 'Saldo Insuficiente';
-            return;
-        }
-        echo 'Valor Inválido';
-    }
-
     public static function getQuantidadeDeContas():int
     {
         return self::$quantidadeDeContas;
     }
+
+    /**
+     * @return float
+     */
+    abstract protected function getTarifa(): float;
 }
