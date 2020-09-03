@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990c5-ee92-426f-899f-8f091865f708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bonificacoes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Conta/ContaCorrente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Conta/ContaPoupanca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Funcionario/Diretor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Funcionario/Gerente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ControladorDeBonificacoes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/banco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Conta/Conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Conta/Conta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autenticacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Autenticavel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Funcionario/EditorVideo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Autenticador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonificacoes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Conta/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Conta/Titular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cpf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Endereco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Funcionario/Diretor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Funcionario/Diretor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Funcionario/Gerente.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Funcionario/Gerente.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +26,8 @@
       <file leaf-file-name="Funcionario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="297">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
               <folding>
                 <element signature="e#75#101#0#PHP" expanded="true" />
               </folding>
@@ -41,20 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Desenvolvedor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php">
+      <file leaf-file-name="Autenticador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/Autenticador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#153#188#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bonificacoes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bonificacoes.php">
+      <file leaf-file-name="Autenticavel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Autenticavel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -62,31 +59,57 @@
       <file leaf-file-name="Gerente.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Gerente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diretor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Diretor.php">
+      <file leaf-file-name="Titular.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Conta/Titular.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="252">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="e#69#104#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControladorDeBonificacoes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/ControladorDeBonificacoes.php">
+      <file leaf-file-name="autenticacao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autenticacao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="e#37#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bonificacoes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bonificacoes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+              <folding>
+                <element signature="e#37#63#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Service</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/Model/Pessoa.php" />
         <option value="$PROJECT_DIR$/src/Model/Cpf.php" />
         <option value="$PROJECT_DIR$/src/Model/Endereco.php" />
-        <option value="$PROJECT_DIR$/src/Model/Conta/Titular.php" />
         <option value="$PROJECT_DIR$/src/Banco.php" />
         <option value="$PROJECT_DIR$/src/banco.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -113,12 +135,17 @@
         <option value="$PROJECT_DIR$/banco.php" />
         <option value="$PROJECT_DIR$/src/Model/Conta/Conta.php" />
         <option value="$PROJECT_DIR$/src/Model/Funcionario.php" />
-        <option value="$PROJECT_DIR$/src/Model/Funcionario/Gerente.php" />
-        <option value="$PROJECT_DIR$/src/Model/Funcionario/Diretor.php" />
         <option value="$PROJECT_DIR$/src/Service/ControladorDeBonificacoes.php" />
-        <option value="$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php" />
-        <option value="$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php" />
         <option value="$PROJECT_DIR$/bonificacoes.php" />
+        <option value="$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php" />
+        <option value="$PROJECT_DIR$/src/Model/Funcionario/EditorVideo.php" />
+        <option value="$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php" />
+        <option value="$PROJECT_DIR$/src/Model/Autenticavel.php" />
+        <option value="$PROJECT_DIR$/src/Model/Funcionario/Diretor.php" />
+        <option value="$PROJECT_DIR$/src/Model/Funcionario/Gerente.php" />
+        <option value="$PROJECT_DIR$/src/Model/Conta/Titular.php" />
+        <option value="$PROJECT_DIR$/autenticacao.php" />
+        <option value="$PROJECT_DIR$/src/Service/Autenticador.php" />
       </list>
     </option>
   </component>
@@ -145,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,12 +195,26 @@
               <item name="formacaophp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Conta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formacaophp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formacaophp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Funcionario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formacaophp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formacaophp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -208,15 +248,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.bonificacoes.php">
+  <component name="RunManager" selected="PHP Script.autenticacao.php">
+    <configuration name="autenticacao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/autenticacao.php" />
     <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/banco.php" />
     <configuration name="bonificacoes.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bonificacoes.php" />
     <list>
       <item itemvalue="PHP Script.banco.php" />
       <item itemvalue="PHP Script.bonificacoes.php" />
+      <item itemvalue="PHP Script.autenticacao.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.autenticacao.php" />
         <item itemvalue="PHP Script.bonificacoes.php" />
         <item itemvalue="PHP Script.banco.php" />
       </list>
@@ -240,12 +283,14 @@
       <workItem from="1595252806797" duration="10000" />
       <workItem from="1598907745810" duration="3168000" />
       <workItem from="1598964993046" duration="48000" />
-      <workItem from="1598996521677" duration="2988000" />
+      <workItem from="1598996521677" duration="3682000" />
+      <workItem from="1599046540432" duration="23000" />
+      <workItem from="1599084499656" duration="2887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22717000" />
+    <option name="totallyTimeSpent" value="26321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,18 +303,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="27" width="1323" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20030235" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003785" side_tool="true" weight="0.328125" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29647437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29647437" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996215" weight="0.32747602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20030235" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996215" weight="0.3292683" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -278,7 +323,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,23 +338,10 @@
     <state x="501" y="323" width="399" height="156" key="NewPhpFileDialog/45.27.1321.741@45.27.1321.741" timestamp="1594663599446" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/Conta/Titular.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/banco.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -346,9 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,9 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,9 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,9 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,64 +615,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Conta/Titular.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Gerente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/ControladorDeBonificacoes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Diretor.php">
+    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/EditorVideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonificacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="e#37#63#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Funcionario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="297">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           <folding>
             <element signature="e#75#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Desenvolvedor.php">
+    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Diretor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="117">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bonificacoes.php">
+    <entry file="file://$PROJECT_DIR$/src/Model/Funcionario/Gerente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Conta/Titular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#69#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autenticacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#37#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Autenticador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#153#188#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Autenticavel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
